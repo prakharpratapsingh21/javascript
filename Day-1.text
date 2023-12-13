@@ -1,0 +1,51 @@
+Q.1- What are the different data types present in javascript?
+Ans- JavaScript has 8 Datatypes
+        String.
+        Number.
+        Bigint.
+        Boolean.
+        Undefined.
+        Null.
+        Symbol.
+        Object.
+
+Q.2- What are the JavaScript Engines?
+Ans- The JavaScript engine is simply a computer program that interprets JavaScript code.
+      The engine is responsible for executing the code. Every major browser has a JavaScript 
+      engine that executes JavaScript code. 
+      List of JavaScript Engines:
+      Browser         JavaScript-Engines
+      Google-       Chrome	V8
+      Edge (Internet Explorer)-	Chakra
+      Mozilla Firefox-	Spider Monkey
+      Safari- 	Javascript Core Webkit
+
+Q.3- Explain ECMA in JS.
+Ans- ECMAScript is a scripting-language specification that was developed by ECMA International 
+      in order to create a standardized JavaScript implementation across all web browsers. 
+      It is widely used for client-side scripting in web browsers, and it is also used for 
+      server-side scripting with node. js.
+
+Q.4- Why We use JavaScript?
+Ans- JavaScript is a widely used programming language that is integral to web development. 
+      It is used to create interactive and dynamic elements on websites, such as animations, 
+      interactive forms, and dynamic content updates, without the need to reload the entire page. 
+
+Q.5- What is JavaScript? And also Explain the histroy of JavaScript?
+Ans- JavaScript is a scripting language that enables you to create dynamically updating content, control multimedia, 
+     animate images, and pretty much everything else.
+     Brendan Eich first developed JavaScript, a computer language, in about ten days in May 1995. The language, 
+     formerly known as Mocha, later modified to LiveScript, and is now known simply as JavaScript, 
+     was created to be used on the client-side of websites, enabling the addition of dynamic and 
+     interactive components to static HTML texts.
+     JavaScript was initially implemented in Netscape Navigator, which was the most popular browser at the time. 
+     The language was quickly adopted by Microsoft for use in Internet Explorer. Due to its simplicity of usage 
+     and the fact that it was the only client-side scripting language available at the time, JavaScript quickly 
+     gained popularity among web developers.
+
+Q.6- What is DOM in js?
+Ans- The Document Object Model (DOM) is the data representation of the objects that comprise the structure and 
+     content of a document on the web.
+     The Document Object Model (DOM) is a programming interface for web documents. It represents the page so that
+     programs can change the document structure, style, and content. The DOM represents the document as nodes and 
+     objects; that way, programming languages can interact with the page.

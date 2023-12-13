@@ -1,0 +1,61 @@
+Q.1- What are the differences between var, let and const? 
+Ans-    var -       		     
+            The scope of a var variable is functional scope.
+            It can be updated and re-declared into the scope.
+            It can be declared without initialization.
+            It can be accessed without initialization as its default value is “undefined”.
+            hoisting done, with initializing as ‘default’ value.
+
+        let -
+            The scope of a let variable is block scope.	
+            It can be updated but cannot be re-declared into the scope.
+            It can be declared without initialization.
+            It cannot be accessed without initialization otherwise it will give ‘referenceError’.
+            Hoisting is done, but not initialized (this is the reason for the error when we access 
+            the let variable before declaration/initialization)
+
+        const -
+            The scope of a const variable is block scope.
+            It cannot be updated or re-declared into the scope.
+            It cannot be declared without initialization.
+            It cannot be accessed without initialization, as it cannot be declared without initialization.
+            Hoisting is done, but not initialized (this is the reason for the error when we access the 
+            const variable before declaration/initialization)
+
+Q.2- Difference between undefined vs not defined vs NaN.
+Ans- NaN: Not a number: As the name implies, it is used to denote that the value of an object is not a number. 
+          You get this value when you try to do some operation that can't yield a meaningful result.
+
+    undefined: It means that the object doesn't have any value, therefore undefined. 
+               This occurs when you create a variable and don't assign a value to it.
+
+    null: It means that the object is empty and isn't pointing to any memory address.
+
+Q.3- What is difference between null and undefined and where to use what?
+Ans- Undefined: Undefined means a variable has been declared but has yet not been assigned a value. 
+
+     Null: Null is an assignment value. It can be assigned to a variable as a representation of no value.
+
+     JavaScript always assigns undefined to indicate the absence of a value by default, 
+     and it never automatically assigns null as a value.
+     Null is more explicit, and it shows that you, as the developer, intended for the variable to be empty. 
+     On the other hand, undefined is typically used by JavaScript itself to indicate that a variable has not been assigned a value.
+
+Q.4- What is execution context?
+Ans- When the JavaScript engine scans a script file, it makes an environment called the 
+     Execution Context that handles the entire transformation and execution of the code.
+     During the context runtime, the parser parses the source code and allocates memory for the 
+     variables and functions. The source code is generated and gets executed.
+
+Q.5 What is use of prompt in JavaScript? 
+Ans- Javascript Window prompt() Method. The Javascript Window prompt() method is used to display 
+     a dialog box with an optional message prompting the user to input some text. 
+     It is often used if the user wants to input a value before entering a page. 
+     It returns a string containing the text entered by the user, or null.
+
+Q.6- Why JavaScript is Dyanmic Language?
+Ans- JavaScript is considered a dynamic programming language because it is able to interpret and 
+     execute code at runtime, rather than during the compilation phase. This allows for more flexibility 
+     and adaptability in the code, as well as the ability to change the behavior of a program based on 
+     user input or other factors. Additionally, JavaScript supports a wide range of data types and is able 
+     to handle them dynamically, without the need for explicit type declarations.
