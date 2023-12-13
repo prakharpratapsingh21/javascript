@@ -15,7 +15,7 @@ Ans- The JavaScript engine is simply a computer program that interprets JavaScri
       engine that executes JavaScript code. 
       List of JavaScript Engines:
       Browser         JavaScript-Engines
-      Google-       Chrome	V8
+      Google-          Chrome	V8
       Edge (Internet Explorer)-	Chakra
       Mozilla Firefox-	Spider Monkey
       Safari- 	Javascript Core Webkit
