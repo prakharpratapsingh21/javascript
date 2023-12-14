@@ -1,0 +1,44 @@
+Q.2- What are the uses of JavaScript Operators?
+Ans- JavaScript operators are symbols used to perform operations on variables and values.
+     Operators are used to assign values, compare values, perform arithmetic operations, and more.
+
+Q.3- Explain the Assignment Operator.
+Ans- The assignment operator is a fundamental concept in programming. It is used to assign a value to a variable.
+     In most programming languages, the assignment operator is denoted by the equals sign (=).
+     When using the assignment operator, the value on the right side of the equals sign is assigned to the 
+     variable on the left side. For example, in the statement x = 5, the value 5 is assigned to the variable x.
+
+Q.4- Explain the all Arithmetic Operators.
+Ans- Arithmetic operators are used in programming and mathematics to perform basic arithmetic operations on numerical values. 
+     The main arithmetic operators are:
+        Addition (+): Used to add two numbers together.
+        Subtraction (-): Used to subtract one number from another.
+        Multiplication (*): Used to multiply two numbers together.
+        Division (/): Used to divide one number by another.
+        Modulus (%): Returns the remainder of a division operation.
+        Exponentiation (**): Raises a number to the power of another number.
+
+Q.5- What are the Binary Operators in js.
+Ans- In JavaScript, binary operators are operators that work with two operands. 
+     Some common binary operators in JavaScript include:
+
+     Arithmetic Operators: These include addition (+), subtraction (-), multiplication (*), division (/), and modulus (%).
+
+    Comparison Operators: These include equal to (==), not equal to (!=), strict equal to (===), strict not equal to (!==), 
+                          greater than (>), greater than or equal to (>=), less than (<), and less than or equal to (<=).
+    Logical Operators: These include logical AND (&&), logical OR (||), and logical NOT (!).
+
+    Bitwise Operators: These include bitwise AND (&), bitwise OR (|), bitwise XOR (^), left shift (<<), 
+                       sign-propagating right shift (>>), and zero-fill right shift (>>>).
+
+Q.6- Explain the Pre-Increment and Post Increment in js.
+Ans- In JavaScript, the pre-increment and post-increment operators are used to increase the value of a variable by 1.
+
+    The pre-increment operator (++x) first increases the value of x by 1 and then returns the updated value. 
+    For example:    
+                let x = 5;
+                let y = ++x; // y will be 6, x will be 6
+    The post-increment operator (x++) first returns the current value of x and then increases it by 1. 
+    For example:
+                let x = 5;
+                let y = x++; // y will be 5, x will be 6
