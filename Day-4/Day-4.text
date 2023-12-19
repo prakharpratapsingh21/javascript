@@ -1,0 +1,25 @@
+
+Q.2 Difference between “ == “ and “ === “ operators.
+Ans- In JavaScript, the equality comparison operator (==) checks for value equality, 
+     while the strict equality operator (===) checks for both value and type equality. 
+     This means that == will return true if the values of two operands are the same, 
+     even if their types are different, 
+     while === will only return true if the values and types of two operands are the same.
+
+Q.3 How many operators do we have in JS ?
+Ans- There are different types of JavaScript operators:
+            Arithmetic Operators
+            Assignment Operators
+            Comparison Operators
+            String Operators
+            Logical Operators
+            Bitwise Operators
+            Ternary Operators
+            Type Operators
+
+Q.4  What is use of parseInt in js?
+Ans- The parseInt() function in JavaScript is used to convert a string into an integer. 
+     It takes two parameters: the string to be converted, and an optional radix (base) parameter. 
+     The radix parameter specifies the base of the number in the string. If the radix parameter is not provided, 
+     the default base is 10.
+
